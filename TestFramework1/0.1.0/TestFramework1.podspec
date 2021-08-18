@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.source_files = "testFramework1.framework/Headers/*.h"
     s.vendored_frameworks = "testFramework1.framework"
     s.platform = :ios
-    s.swift_version = "4.2"
-    s.ios.deployment_target  = '12.0'
+    s.swift_version = "5.0"
+    s.ios.deployment_target  = '13.0'
 end
 
