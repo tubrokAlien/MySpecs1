@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :git => "https://github.com/tubrokAlien/testFrameworkDistribution1.git", :tag => "#{s.version}" }
+    s.source       = { :git => "git@github.com:tubrokAlien/testFrameworkDistribution1.git", :tag => "#{s.version}" }
     s.public_header_files = "SunRare.framework/Headers/*.h"
     s.source_files = "SunRare.framework/Headers/*.h"
     s.vendored_frameworks = "SunRare.framework"
