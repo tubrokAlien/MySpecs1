@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.0"
     s.ios.deployment_target  = '13.0'
-    s.dependency 'Kingfisher', '~> 6.3'
+    
+    s.dependency 'Kingfisher'
 end
 
